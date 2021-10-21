@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global styling */
+body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+}
+
+p {
+  padding: 1rem 0;
+  margin-bottom: 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1000px;
+}
+
+.text-center {
+  font-weight: 600;
+  padding-top: 3rem;
+}
+/* .logo{
+    padding: 10px;
+margin: 0;
+} */
+span {
+  color: #4e9f3d;
+}
+
+.bg-light {
+  color: lightgrey;
+  color: #333;
+}
+
+.bg-dark {
+}
+
+.bg-primary {
+}
+
+.l-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.m-heading {
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.lead {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.py-1 {
+  color: #333;
+}
+.py-2 {
+}
+.py-3 {
+}
+
+.p-1 {
+}
+.p-2 {
+}
+.p-3 {
+}
+
+.btn {
+  background: #4e9f3d;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  color: #333;
+}
+
+.btn-dark {
+}
+
+.list {
+  line-height: 2.5rem;
+  padding: 0;
+}
+
+.list li {
+  list-style: none;
+  border-bottom: 1px dashed #333;
+}
+
+/* Navbar */
+#navbar {
+  color: #fff;
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+#navbar ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+#navbar ul li a:hover {
+  color: gray;
+}
+
+/* Showcase */
+#showcase {
+  background: url("/img/main-background.jpg") no-repeat center center/cover;
+  height: 700px;
+  text-align: center;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Section: What We Do */
+#what .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#what .items .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#what .items h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#what .items .item i {
+  background: lightgreen;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/* Section: Who We Are */
+#who {
+  display: flex;
+  background: white;
+  color: #333;
+  height: 550px;
+}
+
+#who div {
+  margin: 2rem 2rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-weight: 700;
+}
+#who .who-img p {
+  margin: 2rem;
+}
+#who .who-img {
+  height: 600px;
+  width: 600px;
+  margin-right: 1rem;
+}
+#who .who-text h3 {
+  font-weight: 700;
+}
+
+/* Section: Clients */
+#clients {
+  color: #333;
+}
+#clients .m-heading {
+  padding: 0;
+}
+#clients .items {
+  display: flex;
+  justify-content: center;
+}
+
+#clients .items img {
+  width: 120px;
+  height: 90px;
+  margin: 20px;
+}

@@ -1,0 +1,104 @@
+#what .items {
+display: block;
+}
+
+/* Align icon to left */
+#what .items .item {
+}
+/* Position icon */
+#what .items .item i {
+font-size: 50px;
+height: 80px;
+margin-top: 1rem;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+ #navbar{
+   display: flex;
+   flex-direction: column;
+ justify-content: center;
+ }
+ .logo{
+     margin: auto;
+     font-size: 3rem;
+     padding: 1rem;
+ }
+ #what .items .item h3,p{
+    margin-left: 1rem;
+    }
+h2{
+    font-size: 40px;
+}
+   #what .items .item p{
+       font-size: 20px;
+       padding: 0;
+   }
+ ul{
+display: flex;
+justify-content: center;
+font-size: x-large;
+}
+
+.l-heading{
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 2rem;
+}
+.lead{
+    padding: 0 30px;
+    line-height: 2rem;
+}
+.btn{
+    font-size: 20px;
+    padding:10px 30px
+}
+#who{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+}
+.who-img img{
+    padding-left: 0;
+        margin: 0;
+        height: 300px;
+        width: 500px;
+}
+.who-text{
+    display: inline-block;
+    padding: 1.5rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.who-text h2{
+    text-align: center;
+}
+.who-text .list{
+    font-size: 20px;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+#clients{
+    margin: 3rem;
+    display: flex;
+}
+#clients .items{
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+}
+#clients .container .m-heading{
+    margin-bottom: 2rem;
+}
+#clients .container div img{
+    margin: auto;
+    height: 60px;
+    width: 70px;
+}
+#main-footer{
+    font-size: 20px;
+}
+}
